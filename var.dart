@@ -41,4 +41,7 @@ void main() {
   // O tipo da variável pode ser alterada em tempo de execução (agora é um texto)
   x = "Curso";
   print(x);
+
+
+  //from: https://medium.com/flutter-comunidade-br/introdu%C3%A7%C3%A3o-a-linguagem-de-programa%C3%A7%C3%A3o-dart-b098e4e2a41e
 }
