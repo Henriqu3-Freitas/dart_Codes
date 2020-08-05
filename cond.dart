@@ -1,8 +1,8 @@
-void main(){ 
+void main() {
   double media = 4.9;
 
-  // IF (condiçao verdadeira) / ELSE 
-  if (media < 6.0){
+  // IF (condiçao verdadeira) / ELSE
+  if (media < 6.0) {
     print("Reprovado!");
   } else {
     print("Aprovado!");
@@ -11,14 +11,14 @@ void main(){
   /* Podemos também utiliar IF TERNÁRIO
   * CONDIÇÃO ? RETORNO VERDADEIRO : RETORNO FALSO
   */
-  print(media < 6.0 ? "Reprovado!" : "Aprovado"); 
-  
+  print(media < 6.0 ? "Reprovado!" : "Aprovado");
+
   /* Toda variável declarada e que não recebe valor, automáticamente é nula
    * VARIAVEL ?? RETORNO CASO SEJA NULO
    */
   String linguagem;
   print(linguagem ?? "Não Informado");
-  
+
   linguagem = "Dart";
   print(linguagem ?? "Não Informado");
 
@@ -26,7 +26,7 @@ void main(){
    * Utilizado geralmente quando temos constantes
    * Cada cláusula de case não vazio termina com uma instrução break, como regra.
    */
-  switch(linguagem){
+  switch (linguagem) {
     case "Dart":
       print("É Dart!");
       break;
@@ -39,5 +39,5 @@ void main(){
     default:
       print("Não sabe no que programa");
   }
-  from: https://gist.githubusercontent.com/kleberandrade/20aecb011973b99f96db3e638f553f09/raw/97850180d856241cbd8720d422de62fbd5f8f0a9/dart_conditions.dart
+  //from: https://gist.githubusercontent.com/kleberandrade/20aecb011973b99f96db3e638f553f09/raw/97850180d856241cbd8720d422de62fbd5f8f0a9/dart_conditions.dart
 }
